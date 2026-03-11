@@ -5,7 +5,6 @@
     font-family: 'Inter', sans-serif;
 }
 body{
-    /* background-color: rgb(82, 74, 70); */
     height: 100vh;
     text-align: center;
     display: flex;
@@ -13,18 +12,15 @@ body{
     background-color: grey;
 }
 header{
-    /* background-color: rgb(199, 199, 199); */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-top: 0.51rem; */
     height: 10%;
     background-color: whitesmoke;
     border-bottom: 3px solid black ;
 }
 .img{
     display: flex;
-    /* background-color: green; */
     align-items: center;
     max-width: 18%;
     gap: 0.5rem;
@@ -41,7 +37,6 @@ header{
 .text{
     font-size: 1.2rem;
     padding-right: 13rem;
-    /* background-color: aquamarine; */
 }
 .contact{
     padding-right: 1.4rem;
@@ -57,32 +52,26 @@ header{
     cursor: pointer;
 }
 .bodyContent{
-    /* background-color: rgb(99, 205, 28); */
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     flex-direction: column;
     padding: 2rem;
     height: 80%;
 }
 .user{
-    /* background-color: #6366f1; */
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 50%;
-    /* border: 2px black solid; */
 }
 .profile{
     display: flex;
-    /* background-color: red; */
     justify-content: center;
     align-items: center;
     width: 80%;
     gap: 1rem;
     height: 60%;
-    /* padding-right: 4rem; */
 }
 #usrImg{
     border-radius: 100%;
@@ -117,7 +106,6 @@ header{
     border-radius: 7px;
     cursor: pointer;
 }
-/* Add these root variables for cleaner code */
 :root {
     --easy-color: #299f5d;
     --medium-color: #cdcd37;
@@ -125,7 +113,6 @@ header{
     --background-color: #283a2e;
 }
 
-/* This new class will be shared by all three circles */
 .questionType {
     width: 12rem;
     height: 12rem;
@@ -138,7 +125,6 @@ header{
     position: relative;
     font-size: 1.1rem;
     font-weight: 600;
-    /* This is the key change: use a CSS variable for the degree value */
     background: conic-gradient(var(--progress-color, #fff) var(--progress-degree, 0deg), var(--background-color) 0%);
 }
 .questionType span{
@@ -146,7 +132,6 @@ header{
     z-index: 2;
 }
 
-/* These classes just set the specific colors */
 .easy {
     --progress-color: var(--easy-color);
 }
